@@ -2,12 +2,22 @@
 Creating a Version control Software
 
 # Commands
-diygit init
+(Para todos los comandos con multiples argumentos, minimizar los espacios)
 
-diygit clone
+create_branch: create_branch <branch_name>
 
-diygit commit
+change_branch: change_branch <branch_name>
 
-diygit merge
+make_commit: make_commit <author> <message> <file1>
 
-diygit push
+merge_branch: merge_branch <source_branch> <target_branch>
+
+list_commits: list_commits
+
+create_file: create_file <file_name.xxx> <text>
+
+append_file: append_file <file_name.xxx> <text>
+
+exit: exit
+
+help: help
