@@ -1,8 +1,10 @@
+# Modulo Commit
 import datetime
 
 commits = 0
 
 
+# Clase Commit, permite crear un commit con un autor, descripcion, archivo modificado, commit anterior y la fecha
 class Commit:
     def __init__(
         self, author, message, files, parent_commit=None, date=datetime.datetime.now()
@@ -13,6 +15,7 @@ class Commit:
         self.parent_commit = parent_commit
         self.date = date
 
+    # Metodo para retornar un objeto commit
     def show_commit(self):
         global commits
         commits += 1
